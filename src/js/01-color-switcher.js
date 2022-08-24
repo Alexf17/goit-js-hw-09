@@ -1,5 +1,4 @@
-import '../css/common.css';
-
+import '../css/common.css'
 
 const TIMEOUT_CHANGE_COLOR = 1000
 
