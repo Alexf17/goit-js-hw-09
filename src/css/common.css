@@ -17,12 +17,12 @@ img {
   max-width: 100%;
 }
 
-.click {
+.click-box {
 margin-top: 200px;
 display: flex;
 justify-content: center;
 }
-button {
+.color_button {
   height: 100px;
   width: 100px;
   background-color: darkseagreen;
