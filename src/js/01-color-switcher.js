@@ -7,12 +7,14 @@ const stopRandom = document.querySelector('button[data-stop]');
 const body = document.querySelector('body');
 let timerId = null;
 startRandom.disabled = false;
+stopRandom.disabled = true
 
 startRandom.addEventListener("click", onStartClick)
 stopRandom.addEventListener("click", onStopClick)
   
 function onStartClick() {
   startRandom.setAttribute("disabled", "disabled");
+  stopRandom.disabled = false
   timerId = setInterval(() => {
     let randomColor = getRandomHexColor()
     body.style.backgroundColor = randomColor
