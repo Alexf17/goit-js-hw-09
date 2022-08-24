@@ -2,12 +2,11 @@ import '../css/common.css'
 
 const TIMEOUT_CHANGE_COLOR = 1000
 
-const startRandom = document.querySelector('button[data-start]')
-const stopRandom = document.querySelector('button[data-stop]')
-const body = document.querySelector('body')
-let timerId = null
-startRandom.disabled = false
-
+const startRandom = document.querySelector('button[data-start]');
+const stopRandom = document.querySelector('button[data-stop]');
+const body = document.querySelector('body');
+let timerId = null;
+startRandom.disabled = false;
 
 startRandom.addEventListener("click", onStartClick)
 stopRandom.addEventListener("click", onStopClick)
