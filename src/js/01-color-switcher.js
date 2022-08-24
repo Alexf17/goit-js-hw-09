@@ -7,7 +7,7 @@ const stopRandom = document.querySelector('button[data-stop]');
 const body = document.querySelector('body');
 let timerId = null;
 startRandom.disabled = false;
-stopRandom.disabled = true
+stopRandom.disabled = true;
 
 startRandom.addEventListener("click", onStartClick)
 stopRandom.addEventListener("click", onStopClick)
