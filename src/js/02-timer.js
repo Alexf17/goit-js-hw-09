@@ -39,7 +39,7 @@ const options = {
 
 
 flatpickr(refs.input, options);
-require('flatpickr/dist/themes/confetti.css');
+require("flatpickr/dist/themes/dark.css")
 
 refs.btnStart.addEventListener('click', onStartBtnClick);
 
