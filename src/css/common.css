@@ -31,3 +31,20 @@ img {
   border-radius: 5px;
   border-color: darkgray;
 }
+
+.timer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.value {
+  font-size: 100px;
+  font-family: monospace;
+}
+
+.label {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 30px;
+  font-family: fantasy;
+}
