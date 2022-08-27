@@ -37,13 +37,14 @@ const options = {
   },
 };
 
-
 flatpickr(refs.input, options);
 require("flatpickr/dist/themes/dark.css")
 
 refs.btnStart.addEventListener('click', onStartBtnClick);
 
 function onStartBtnClick() {
+  refs.btnStart.disabled = true;
+  refs.input.disabled = true
   timerID = setInterval(() => {
     difference = SELECTED_DAY - Date.now()
     let ccc = convertMs(difference)
